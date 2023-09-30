@@ -6,6 +6,9 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public class DbConnection {
+
+    public static final String USER_NAME = "admin";
+    public static final String PASSWORD = "1234";
     private static DbConnection dbConnection;
     private static Connection con;
 
